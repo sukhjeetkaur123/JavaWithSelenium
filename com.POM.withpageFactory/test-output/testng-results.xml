@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-07T16:05:02Z" name="Suite" finished-at="2022-02-07T16:05:15Z" duration-ms="12863">
+    <groups>
+    </groups>
+    <test started-at="2022-02-07T16:05:02Z" name="Test" finished-at="2022-02-07T16:05:15Z" duration-ms="12863">
+      <class name="com.POM.tests.HomeTest">
+        <test-method signature="clickOnLogOut()[pri:0, instance:com.POM.tests.HomeTest@14dd7b39]" started-at="2022-02-07T16:05:13Z" name="clickOnLogOut" finished-at="2022-02-07T16:05:15Z" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogOut -->
+      </class> <!-- com.POM.tests.HomeTest -->
+      <class name="com.POM.tests.LoginTest">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-07T16:04:51Z" name="launch" finished-at="2022-02-07T16:05:02Z" duration-ms="10794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="chechTitle()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-07T16:05:02Z" name="chechTitle" finished-at="2022-02-07T16:05:02Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chechTitle -->
+        <test-method signature="forgetpass()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-07T16:05:02Z" name="forgetpass" finished-at="2022-02-07T16:05:04Z" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetpass -->
+        <test-method signature="loginDetail()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-07T16:05:04Z" name="loginDetail" finished-at="2022-02-07T16:05:13Z" duration-ms="9616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDetail -->
+      </class> <!-- com.POM.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
