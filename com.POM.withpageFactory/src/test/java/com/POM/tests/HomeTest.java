@@ -12,8 +12,8 @@ public class HomeTest extends TestBase {
 	}
 	 @Test
 	 void clickOnLogOut() {
-		 HomePage hp =new HomePage();
-		 hp.logout();
+		
+		 obj.getHomeData().logout();
 	 }
 
 }

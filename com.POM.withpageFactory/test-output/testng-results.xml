@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-07T16:05:02Z" name="Suite" finished-at="2022-02-07T16:05:15Z" duration-ms="12863">
+  <suite started-at="2022-02-08T11:41:13Z" name="Suite" finished-at="2022-02-08T11:41:35Z" duration-ms="21704">
     <groups>
     </groups>
-    <test started-at="2022-02-07T16:05:02Z" name="Test" finished-at="2022-02-07T16:05:15Z" duration-ms="12863">
+    <test started-at="2022-02-08T11:41:13Z" name="Test" finished-at="2022-02-08T11:41:35Z" duration-ms="21704">
       <class name="com.POM.tests.HomeTest">
-        <test-method signature="clickOnLogOut()[pri:0, instance:com.POM.tests.HomeTest@14dd7b39]" started-at="2022-02-07T16:05:13Z" name="clickOnLogOut" finished-at="2022-02-07T16:05:15Z" duration-ms="1538" status="PASS">
+        <test-method signature="clickOnLogOut()[pri:0, instance:com.POM.tests.HomeTest@14dd7b39]" started-at="2022-02-08T11:41:34Z" name="clickOnLogOut" finished-at="2022-02-08T11:41:35Z" duration-ms="1405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnLogOut -->
       </class> <!-- com.POM.tests.HomeTest -->
       <class name="com.POM.tests.LoginTest">
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-07T16:04:51Z" name="launch" finished-at="2022-02-07T16:05:02Z" duration-ms="10794" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-08T11:40:52Z" name="launch" finished-at="2022-02-08T11:41:13Z" duration-ms="21117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="chechTitle()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-07T16:05:02Z" name="chechTitle" finished-at="2022-02-07T16:05:02Z" duration-ms="26" status="PASS">
+        <test-method signature="chechTitle()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-08T11:41:16Z" name="chechTitle" finished-at="2022-02-08T11:41:16Z" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chechTitle -->
-        <test-method signature="forgetpass()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-07T16:05:02Z" name="forgetpass" finished-at="2022-02-07T16:05:04Z" duration-ms="1224" status="PASS">
+        <test-method signature="forgetpass()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-08T11:41:16Z" name="forgetpass" finished-at="2022-02-08T11:41:19Z" duration-ms="2454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgetpass -->
-        <test-method signature="loginDetail()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-07T16:05:04Z" name="loginDetail" finished-at="2022-02-07T16:05:13Z" duration-ms="9616" status="PASS">
+        <test-method signature="loginDetail()[pri:0, instance:com.POM.tests.LoginTest@2d0399f4]" started-at="2022-02-08T11:41:19Z" name="loginDetail" finished-at="2022-02-08T11:41:34Z" duration-ms="15031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDetail -->

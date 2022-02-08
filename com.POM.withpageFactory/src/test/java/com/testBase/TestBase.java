@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.POM.PageFactory.ObjectFactory;
 import com.POM.pages.LoginPage;
 
 import com.POM.tests.LoginTest;
@@ -17,7 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestBase {
 	public static Properties prop;
 	public static WebDriver driver;
-
+    protected static ObjectFactory obj;
 	
 	public TestBase() {
 		try {
@@ -33,6 +34,7 @@ public class TestBase {
     }
 }
 	public void intialization() {
+		obj = new ObjectFactory();
 		  WebDriverManager.chromedriver().setup();
 		  driver=new ChromeDriver();
 	   
