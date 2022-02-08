@@ -22,22 +22,22 @@ public class LoginTest extends TestBase {
 	@BeforeSuite
 	public void launch() {
 		intialization();
-		lp = new LoginPage();
+//		lp = new LoginPage();
 		
 	}
 	@Test
 	public void chechTitle() {
-	actualTitle=lp.verifyTitle();
+	actualTitle=obj.getLoginData().verifyTitle();
 	Assert.assertEquals(actualTitle, "OrangeHRM");
 	}
 	@Test
 	void loginDetail() throws IOException{
-		lp.login();
+		obj.getLoginData().login();
 	
 	}
 	@Test
 	void forgetpass() {
-		lp.forgetPassword();
+		obj.getLoginData().forgetPassword();
 	}
 	
 
