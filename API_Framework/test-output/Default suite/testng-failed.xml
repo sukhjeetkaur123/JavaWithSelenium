@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="customer_TestCases.Tc_003_Add_Customer">
+        <methods>
+          <include name="checkServerType"/>
+          <include name="checkResponseTime"/>
+          <include name="Setup"/>
+          <include name="checkStatusCode"/>
+          <include name="checkStatusLine"/>
+          <include name="checkContentType"/>
+          <include name="checkContentLength"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- customer_TestCases.Tc_003_Add_Customer -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
